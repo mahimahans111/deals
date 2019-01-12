@@ -1,0 +1,486 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title></title>
+	
+	<link href="https://fonts.googleapis.com/css?family=Roboto:100,400,700" rel="stylesheet">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+
+	<style type="text/css">
+		body{
+	padding: 0;
+	margin:0;
+	background-color: #eee;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+.nav {
+	position: fixed;
+	top: 0;
+	width: 100%;
+	overflow: hidden;
+  	background-color: #0e3c46;
+}
+
+.nav a {
+  float: left;
+  display: block;
+  color: #ddd;
+  text-align: center;
+  padding: 18px 20px;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 100px;
+  float: left;
+  letter-spacing: 1px;
+}
+
+.nav p{
+	display: inline;
+}
+
+.nav #first{
+	margin-left: 200px;
+}
+
+.nav a.active {
+  background-color: white;
+  color: #0e3c46;
+}
+
+.nav .right {
+  float: right;
+  padding: 6px;
+  border: none;
+  margin-top: 12px;
+  margin-right: 18px;
+  font-size: 17px;
+}
+
+
+.navsmall{
+	margin: none;
+	padding-top: 2px;
+	padding-bottom: 2px;
+	background-color: white;
+	position: fixed;
+	top: 50px;
+	width: 100%;
+	border-bottom: 1px solid #999;
+}
+
+.navsmall a{
+	text-decoration: none;
+	color: #333;
+	font-size: 15px;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+.navsmall .select{
+	padding-left: 100px;
+	color: #0e3c46;
+	border-right: 1px solid grey;
+}
+
+.navsmall .last{
+	border-left: 1px solid grey;
+}
+
+.active{
+	color: #0e3c46;
+	background-color: white;
+}
+
+.nav1{
+	background-color: #0e3c46;
+	border:1px solid #eee;
+}
+
+.nav1 a{
+	display:inline-block;
+	color: #ddd;
+	text-align: center;
+	padding: 18px 0;
+  	text-decoration: none;
+  	font-size: 20px;
+  	font-weight: 100px;
+  	float: left;
+  	width: 33.3%;
+  	background-color: #0e3c46;
+}
+
+.nav1 a.active{
+	background-color: white;
+  	color: #0e3c46;
+}
+
+.two li{
+	float: left;
+	list-style: none;
+	display: inline-block;
+	margin-top: 20px;
+}
+
+.active{
+	background-color: white;
+	color: #0e3c46;
+}
+
+
+a:hover {
+  color: #0e3c46;
+  background-color: white;
+}
+
+.container{
+	margin-top: 30px;
+}
+
+.section{
+	margin-top: 100px;
+	margin-left: 5%;
+	margin-right: 5%;
+	background: white;
+
+}
+
+.section .top{
+	width: 16%;
+	float: left;
+	padding-left: 2%;
+	padding-right: 2%;
+	background: white;
+}
+
+.section #top1{
+	float: left;
+	width: 20%;
+	background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQPwII7eIE78JXV9UA-qqEmSWGIU8p0SZUR-2NWZY6jMra4Hu9hIQ");
+	background-repeat: no-repeat;
+	background-size: 350px; 
+	color: #eee;
+}
+
+.section img{
+	width: 100%;
+	height: 250px;
+}
+
+.top i{
+	color: #444;
+}
+.top{
+	background: white;
+}
+
+.two .smallcontainer{
+	margin-left: 5%;
+	width: 70%;
+}
+
+.section2 .top{
+	float: left;
+	padding-left: 2%;
+	padding-right: 2%;
+	border:1px solid #eee;
+	border-top: 0;
+	width: 15.75%	
+}
+
+.section2 img{
+	width: 100%;
+	height: 180px;
+}
+
+.section2{
+	border: 1px solid #ddd;
+}
+
+.block{
+	background-color: white;
+	padding: 10px;
+	border: 1px solid #ddd;
+	margin-bottom: 20px;
+}
+
+.block img{
+	width: 40%;
+	height: 360px;
+	padding-bottom: 40px;
+}
+
+.block h3{
+	color: #0e3c46;
+	font-weight: 400;
+}
+
+.block h1{
+	color: #0e3c46;
+}
+
+.block span{
+	color: #0e3c46;
+}
+
+.block .content{
+	padding-top: 10px;
+	float: right;
+	width: 55%
+}
+
+.block button{
+	border: none;
+	color: white;
+	background-color: #0e3c46;
+	padding: 8px 12px;
+}
+
+.block #icon{
+	color: grey;
+	padding: 8px;
+	position: relative;
+	bottom: 0;
+	left:420px; 
+}
+
+.block #sp{
+	width: 40%;
+	height: 300px;
+	padding: 0;
+	margin: 0;
+}
+
+#b1{
+	margin-top: 40%;
+}
+
+.me{
+	color: #0e3c46;
+}
+
+#b6 .content{
+	padding-top: 50px;
+}
+
+.box {
+	text-align: center;
+}
+
+#sub{
+	font-size: 20px;
+	padding: 20px 30px;
+	letter-spacing: 2px;
+	background-color: #177;
+}
+	</style>
+</head>
+
+<body>
+
+	<div class="nav">
+		<a class="active" id="first" href="#">DEALS</a>
+		<a href="#">COUPONS</a>
+		<a href="#">GUIDE</a>
+		<a href="#">BLOG</a>
+		<a href="#" class="right"><p>LOG IN OR SIGN UP</p></a>
+		<a href="#" class="right"><i class="fas fa-search"></i></a>
+	</div>
+
+	<div class="navsmall">
+		<a class="select" href="#">DEAL ALERTS</a>
+		<a href="#">ALL DEALS</a>
+		<a href="#">WOMEN</a>
+		<a href="#">MEN</a>
+		<a href="#">SHOES</a>
+		<a href="#">HOME</a>
+		<a href="#">CREDIT CARDS</a>
+		<a href="#">ELECTRONICS</a>
+		<a href="#">TRAVEL</a>
+		<a href="#">TICKETS</a>
+		<a href="#" class="last">MORE CATEGORIES</a>
+	</div>
+
+	<div class= "container">
+		<div class="section" id="topBar">
+
+		<div id="top1">
+				<br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+				<h2>Editor's Picks</h2>
+				<p id="abvimg">Favorite deals hand-selected by Jason F, Brad's Editor since 2018</p>
+		</div>
+
+		<div class="top">
+				<img src="https://s7.landsend.com/is/image/LandsEnd/486309_A517_LF_6YR?439,658">
+				<h4>Women's Touchscreen Gloves $10 Shipped</h4>
+				<p><i>"These are available in multiple colors."</i></p>
+		</div>
+
+		<div class="top">
+				<img src="https://images-na.ssl-images-amazon.com/images/I/81iLvhJxQ1L._SL1500_.jpg">
+				<h4>Soft-Sided Pet Carrier from $18 shipped</h4>
+				<p><i>"This is the best price we found by $5"</i></p>
+		</div>
+
+		<div class="top">
+				<img src="https://cdn.shopify.com/s/files/1/1734/8819/products/MPB1728_NAVY_large.jpg?v=1503703162">
+				<h4>Men's Puffer Coat from $25 shipped</h4>
+				<p><i>"This is the best price by $ that we've found so far."</i></p>
+		</div>
+
+		<div class="top">
+				<img src="https://d1kwuwdnmmp7kz.cloudfront.net/prod/297009/deal_310x310/wearable-throw-blanket.jpeg">
+				<h4>Wearable Throw Blanket $11 shipped</h4>
+				<p><i>"This is the best price so far by $13"</i></p>
+		</div>
+		</div>
+
+	</div>
+	<br>
+	<div class="two">
+
+	<li><div class="smallcontainer">
+		
+		<div class="nav1">
+		<a class="active" href="#">POPULAR</a>
+		<a href="#">NEWEST</a>
+		<a href="#">EXCLUSIVES</a>
+		</div>
+
+		<div class="section2" id = "sec2">
+			
+			<div class="top">
+				<img src="https://dks.scene7.com/is/image/dkscdn/16UARWFRDMTRNNGSHAPB_True_Gray_Heather?wid=425">
+				<h4>Under Armour Women's Shorts $15 Shipped</h4>
+			</div>
+			
+			<div class="top">
+				<img src="https://images-na.ssl-images-amazon.com/images/I/514YN3Aar0L.jpg">
+				<h4>Jojen Polarized Sunglasses $16 Shipped</h4>
+			</div>
+			
+			<div class="top">
+				<img src="https://res.cloudinary.com/scentre-group-au/image/fetch/c_pad,b_auto,w_600,h_600,f_auto/https://sg-wfapi-image-store-production-874147266691.s3.amazonaws.com/0/44c1954c-a046-43c3-9b1b-11d594062208.jpg">
+				<h4>Google Home Max Speaker $350 Shipped</h4>
+			</div>
+			
+			<div class="top">
+				<img src="https://ak1.ostkcdn.com/images/products/5173330/Panasonic-ES-RW30-S-Pro-Curve-Twin-blade-Cordless-Mens-Wet-Dry-Shaver-b9e980e7-78b4-436e-abfc-52afe7becef8_600.jpg">
+				<h4> Cordless Men's Coolest Shaver $22 Shipped</h4>
+			</div>
+			
+			<div class="top">
+				<img src="https://i.ebayimg.com/images/g/jNkAAOSwhwBZ3~VT/s-l300.jpg">
+				<h4>Boys' Packable Down Jacket $22 Shipped</h4>
+			</div>
+		</div>
+
+			<div class="block" id="b1">
+			
+				<img src="http://blog.blazingglass.com/wp-content/uploads/2015/10/Buying-a-perfect-fire-pit-for-home.jpg">
+			
+			<div class="content">
+				<h3>Propane Fire Pit $124 Shipped</h3>
+				<p>This <span>Red Ember Propane Fir Pit</span> listed at $299.99, but you can get it for $123.99 on clearance at Hayneedle. Shipping is free. That's the best price we can find anywhere by about $24, and it's the best price we've ever seen for this model! The fire pit resembles natural stone and can be safely used on decks and patios. It measures 28" across. Note that the lowest-prices style uses a 20-pound liquid propane tank which isn't included. Sales tax is charged in most states.</p>
+				<button>Get It</button> <span><b>at Hayneedle</b></span>
+				<br><br><br><br><br><br><br>
+				<i id="icon"class="fas fa-share-alt"></i><i id="icon"class="fas fa-bookmark"></i><span><i id="icon"class="me fas fa-comment-alt"></i><span>
+			</div>
+		</div>
+			
+			<div class="block" id="b2">
+			
+				<img src="https://media.kohlsimg.com/is/image/kohls/3363301?wid=500&hei=500&op_sharpen=1">
+			
+			<div class="content">
+				<h3>Up to 70$ Off on Holiday Decor</h3>
+				<p>Save up to 70% on a selection of <span>holiday decor</span> at<span>Kohls.com</span>. The pictured <span>St. Nicholas Square Joy Christmas Wall Decor</span> drops from $99.99 to $29.99, the lowest price we could find by $7. And this <span>Marquee Light-Up Monogram Christmas Ornament</span> drops from $12.99 to $5.19. Shipping is $8.95, or it's free with $75. You can also order online and choose in-store pickup for free in many locations.Sales tax is charged in most states.</p>
+				<button>Get It</button> <span><b>at Kohl's</b></span>
+				<br><br><br><br><br><br><br>
+				<i id="icon"class="fas fa-share-alt"></i><i id="icon"class="fas fa-bookmark"></i><span><i id="icon"class="me fas fa-comment-alt"></i><span>
+			</div>
+		</div>
+			
+			<div class="block" id="b3">
+			
+				<img src="https://i.pinimg.com/236x/88/cd/d9/88cdd9526f5b246826526c319a357b2c--down-jackets-columbia.jpg">
+			
+			<div class="content">
+				<h3>Columbia Awareness Jacket $35 Shipped</h3>
+				<p>Originally $59.99, this women's <span>Columbia Tested Tough in Pink Jacket</span> drops to $34.90 at <span>Columbia.com</span>. Shipping is free with a <span>Greater Rewards</span> membership, otherwise it adds $6. Choose from pink or black. This is the lowest price online by $25. It features an adjustable storm hood, zippered hand pockets, and an embroidered pink breast cancer awareness ribbon. Sales tax is charged in most states.</p>
+				<button>Get It</button> <span><b>at Columbia Sportswear</b></span>
+				<br><br><br><br><br><br><br><br>
+				<i id="icon"class="fas fa-share-alt"></i><i id="icon"class="fas fa-bookmark"></i><span><i id="icon"class="me fas fa-comment-alt"></i><span>
+			</div>
+		</div>
+		
+		<div class="block" id="b4">
+			
+				<img src="https://d1kwuwdnmmp7kz.cloudfront.net/prod/297076/deal_310x310/1860921_010_f.jpeg">
+			
+			<div class="content">
+				<h3>Columbia Achen Lake Jacket $42 Shipped</h3>
+				<p>This women's <span>Columbia Achen Lake EXS Jacket</span>drops from $120 to $42.39 when you apply code COL2019 at checkout at <span>Columbia.com</span>. Shipping is free when you sign up for <span>Greater Rewards</span>, or it adds $5.99. This is the best price we could find by over $75. Choose from four colors. It has water-resistant fabric and zippered hand pockets. Sales tax is charged in most states.</p>
+				<button>Get It</button> <span><b>at Columbia Sportswear</b></span>
+				<br><br><br><br><br><br><br><br>
+				<i id="icon"class="fas fa-share-alt"></i><i id="icon"class="fas fa-bookmark"></i><span><i id="icon"class="me fas fa-comment-alt"></i><span>
+			</div>
+		</div>
+
+		<div class="block" id="b5">
+			
+				<img src="https://images.prod.meredith.com/product/22be6d742ea57de023aa391eaa6402a3/1543987026077/l/madison-park-peached-percale-4-pc-queen-cotton-sheet-set-bedding">
+			
+			<div class="content">
+				<h3>4pc 1,000TC Cotton Sheet Set from $36</h3>
+				<p>Exclusively for our readers, this <span>1,000-Thread-Count Egyptian Cotton Sheet Set</span> drops from $99.99 to $39.99-$41.99 in full, $36.99 in queen, and $37.99 in king at <span>Daily Steals</span> when you enter our code BRADSLTC during checkout. Shipping is free. This is the lowest price we found by $1, and most retailers are charging $4-$8 more. It is available in nine colors, and it includes two pillowcases, a flat sheet, and a fitted sheet. Sales tax is charged in most states.</p>
+				<button>Get It</button> <span><b>at Daily Steals</b></span>
+				<br><br><br><br><br><br><br>
+				<i id="icon"class="fas fa-share-alt"></i><i id="icon"class="fas fa-bookmark"></i><span><i id="icon"class="me fas fa-comment-alt"></i><span>
+			</div>
+		</div>
+
+		<div class="block" id="b6">
+			
+				<img id="sp" src="https://d1kwuwdnmmp7kz.cloudfront.net/prod/297215/deal_310x310/beach-84533_1280-1.jpeg">
+			
+			<div class="content">
+				<h1>3-Night Mexico Resort Stay $999</h1>
+				<p><i>"The offer includes $100 in spa credit and $100 in breakfast credit"</i></p>
+				<button id="sub">SEE DETAILS</button>
+			</div>
+		</div>
+		
+		<div class="block" id="b7">
+			
+				<img src="https://images.prod.meredith.com/product/9563694f0ec87552838d757a06b4bbfb/243abd26fde40ddcde95393f367f75b798acbefe19a7054c2aa77f3113977d23/l/skechers-womens-on-the-go-flagship-boat-shoes">
+			
+			<div class="content">
+				<h3>Skechers Women's shoes $25 at Macy's</h3>
+				<p>Through 1/14, shop <span>Skechers</span> for $25 at <span>Macys.com</span>. Shipping starts at $9.95, or it's free on orders over $99. For example, these <span>Skechers Summits Sneakers</span> drop from $54.99 to $25. This is the best price by $5. They have a near-one piece mesh upper and memory foam cushioned insoles. Shop over 20 styles. Sales tax is charged in most states.</p>
+				<button>Get It</button> <span><b>at Macy's</b></span>
+				<br><br><br><br><br><br><br><br>
+				<i id="icon"class="fas fa-share-alt"></i><i id="icon"class="fas fa-bookmark"></i><span><i id="icon"class="me fas fa-comment-alt"></i><span>
+			</div>
+		</div>		
+	</div></li>
+	</div>
+
+	<script type="text/javascript" src="index.js"></script>
+
+	<script type="text/javascript">
+	var links = document.getElementsByTagName("a");
+
+	for(var i = 0; i < links.length; i++){
+	links[i].addEventListener("click", function(){
+			this.classList.toggle("active");
+		});
+}
+
+	</script>
+</body>
+</html>
+
+
